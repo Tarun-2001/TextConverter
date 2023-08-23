@@ -49,7 +49,7 @@ function App() {
       <Router>
        <Navbar title='TextConverter' toogleMode={toogleMode} mode={mode}/>
       <Alert alert ={alert}/>
-        <div className='container my-3'> 
+        <div className='container my-4'> 
         <Routes>
         <Route exact path='/' element={<Form showAlert={showAlert} setAlert={setAlert}title="Enter text here" mode={mode}/>}/>
         <Route exact path='/about' element= {< About/>}/>
